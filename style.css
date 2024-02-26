@@ -26,15 +26,15 @@ body {
 
 .purple-box{
   float: left;
+  box-sizing: border-box;
   width: 40px;
   height: 40px;
   background: #a9004b;
-  padding 10px;
-  margin: 10px 0px 10px 10px;
+  margin: 10px;
 }
 
-.purple-box:last-of-type{
-  margin: 10px;
+.purple-box:nth-of-type(2){
+  margin: 10px 5px
 }
 
 .side{
@@ -45,17 +45,11 @@ body {
 }
 
 .content{
-  position: relative;
+  padding: 40px;
   float: left;
   width: 250px;
   height: 250px;
   background: #8c2727;
-}
-
-.orange-box-parent{
-  position: absolute;
-  top: 40px;
-  left: 40px;
 }
 
 .orange-box{
